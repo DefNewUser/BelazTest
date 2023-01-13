@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="test/html;charset=UTF-8" />
     <link rel="stylesheet" href="style.css">
     <title>User profile</title>
 </head>
+
 <body>
+
     <main>
         <div class="circle"></div>
-        <div class="refister-form-container">
-            <h1 class="form-title">
+        <div class="register-form-container">
+            <h2 class="form-title">
                 User profile
-            </h1>
-            <div class="form-field">
-                <input type="test" placeholder="имя">
+            </h2>
+            <div class="input_row">
+                <label for="first_name">First name*</label>
+                <input type="text" id="first_name" placeholder="Иван">
+            </div>
+            <div class="input_row">
+                <label for="last_name">Last name*</label>
+                <input type="text" id="last_name" placeholder="Иванович">
+            </div>
+            <div class="input_row">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" placeholder="Иванов">
             </div>
             <div class="form-field">
-                <input type="test" placeholder="фамилия">
+                <label for="start">Birthday*</label>
+                <input type="date" id="start" name="bday">
             </div>
-            <div class="form-field">
-                <input type="test" placeholder="отчество">
+            <div>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <div>
+                        <input type="radio" name="gender" value="male" /> male
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" value="female" /> female
+                    </div>
+                </fieldset>
             </div>
 
         </div>

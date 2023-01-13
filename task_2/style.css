@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
