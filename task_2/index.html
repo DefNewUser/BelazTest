@@ -36,7 +36,7 @@
                 <fieldset>
                     <legend>Gender</legend>
                     <div>
-                        <input type="radio" name="gender" value="male" /> male
+                        <input type="radio" name="gender" value="male" /> male; <br>
                     </div>
                     <div>
                         <input type="radio" name="gender" value="female" /> female
@@ -46,13 +46,17 @@
 
             <div class="input_row">
                 <label for="email">E-mail*</label>
-                <input type="email" required id="E-mail" placeholder="ИванИванович@gmail.com">
+                <input type="email"  id="E-mail"
+                       pattern=".+@globex\.com" size="30"
+                       placeholder="Ivan@example.com"
+                required>
             </div>
 
             <div class="input_row">
                 <label for="number">Phone-number</label>
                 <input type="tel" id="Phone-number" placeholder="+375(**) *** ** **">
             </div>
+
 
         </div>
     </main>

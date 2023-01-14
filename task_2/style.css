@@ -1,42 +1,59 @@
- *{
-     padding: 0px;
-     margin: 0px;
- }
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
-.header{
-     width: 100%;
-     height: 100%;
-     /*background-color: aquamarine;*/
-     /*text-align: center;*/
- }
- .container{
-     width: 90%;
-     /*background-color: green;*/
-     margin: 0 auto;
- }
- .register-form-container{
-     /*background-color: blue;*/
-     margin: 0 auto;
-     width: 70%;
- }
- .input_row{
-     margin: 10px 5px;
-     /*background-color: red;*/
-     clear:both;
-     text-align: right;
-     /*line-height:25px;*/
- }
+.header {
+    width: 100%;
+    height: 100%;
+    /*background-color: aquamarine;*/
+    /*text-align: center;*/
+}
 
- label{
-     /*background-color: brown;*/
-     float:left;
-     padding-top: 8px;
+.container {
+    width: 90%;
+    /*background-color: green;*/
+    margin: 0 auto;
+}
 
- }
- input{
-     width: 80%;
-     border-radius: 5px;
-     padding: 10px 0 10px 3px;
-     border: none;
-     border: solid 1px #000000;
- }
+.register-form-container {
+    /*background-color: blue;*/
+    margin: 0 auto;
+    width: 50%;
+}
+
+.input_row {
+    margin: 10px 5px;
+    /*background-color: red;*/
+    clear: both;
+    text-align: right;
+    /*line-height:25px;*/
+}
+
+label {
+    /*background-color: brown;*/
+    float: left;
+    padding-top: 8px;
+
+}
+
+input {
+    width: 80%;
+    border-radius: 2px;
+    padding: 5px 0 5px 3px;
+    border: none;
+    border: solid 1px #000000;
+}
+
+.fieldset {
+    margin: 10px 5px;
+    /*background-color: red;*/
+    clear: both;
+    text-align: right;
+    /*line-height:25px;*/
+}
+
+legend {
+    display: inline;
+    padding: 5px 0 5px 3px;
+}
