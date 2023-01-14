@@ -54,8 +54,20 @@ fieldset {
     border: 3px double;
 }
 
-legend {
-
-
+.radio {
+    float: left;
+    appearance: none;
 
 }
+
+legend {
+
+}
+
+textarea {
+    width: 80%;
+    border-radius: 2px;
+    padding: 30px 50px 60px 3px;
+}
+
+
