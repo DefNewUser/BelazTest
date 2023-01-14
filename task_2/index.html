@@ -36,10 +36,12 @@
                 <fieldset>
                     <legend>Gender</legend>
                     <div>
-                        <input type="radio" name="gender" value="male" /> male; <br>
+                        <input type="radio" name="gender" id="male" value="male" checked>
+                        <label for="male">male</label>
                     </div>
                     <div>
-                        <input type="radio" name="gender" value="female" /> female
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">female</label>
                     </div>
                 </fieldset>
             </div>
@@ -57,6 +59,10 @@
                 <input type="tel" id="Phone-number" placeholder="+375(**) *** ** **">
             </div>
 
+            <div class="text_address">
+                <label for="address">Address*</label>
+                <textarea name="address"></textarea>
+            </div>
 
         </div>
     </main>

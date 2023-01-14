@@ -19,7 +19,7 @@
 .register-form-container {
     /*background-color: blue;*/
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
 }
 
 .input_row {
@@ -41,19 +41,21 @@ input {
     width: 80%;
     border-radius: 2px;
     padding: 5px 0 5px 3px;
+    /*background-color: brown;*/
     border: none;
     border: solid 1px #000000;
 }
 
-.fieldset {
-    margin: 10px 5px;
+fieldset {
+    padding: 5px 0 5px 3px;
     /*background-color: red;*/
     clear: both;
-    text-align: right;
-    /*line-height:25px;*/
+    text-align: left;
+    border: 3px double;
 }
 
 legend {
-    display: inline;
-    padding: 5px 0 5px 3px;
+
+
+
 }
