@@ -17,20 +17,21 @@
             </h2>
             <div class="input_row">
                 <label for="first_name">First name*</label>
-                <input type="text" id="first_name" placeholder="Иван">
+                <input type="text" id="first_name" placeholder="Иван" autofocus required>
             </div>
             <div class="input_row">
                 <label for="last_name">Last name*</label>
-                <input type="text" id="last_name" placeholder="Иванович">
+                <input type="text" id="last_name" placeholder="Иванович" autofocus required>
             </div>
             <div class="input_row">
                 <label for="surname">Surname</label>
                 <input type="text" id="surname" placeholder="Иванов">
             </div>
-            <div class="form-field">
+            <div class="input_row">
                 <label for="start">Birthday*</label>
-                <input type="date" id="start" name="bday">
+                <input type="date" id="start" name="bday" autofocus required>
             </div>
+
             <div>
                 <fieldset>
                     <legend>Gender</legend>
@@ -41,6 +42,16 @@
                         <input type="radio" name="gender" value="female" /> female
                     </div>
                 </fieldset>
+            </div>
+
+            <div class="input_row">
+                <label for="email">E-mail*</label>
+                <input type="email" required id="E-mail" placeholder="ИванИванович@gmail.com">
+            </div>
+
+            <div class="input_row">
+                <label for="number">Phone-number</label>
+                <input type="tel" id="Phone-number" placeholder="+375(**) *** ** **">
             </div>
 
         </div>
