@@ -20,12 +20,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     /*text-align: center;*/
 }
 
-.gender-fieldset{
+.gender-fieldset {
     display: flex;
     justify-content: flex-end;
 }
 
-.gender-fieldset fieldset{
+.gender-fieldset fieldset {
     width: 79.9%;
     margin-right: -5px;
 }
@@ -39,7 +39,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-left: 10px;
 }
 
-.gender-container:last-child{
+.gender-container:last-child {
     padding-bottom: 10px;
 }
 
@@ -52,7 +52,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: initial;
 }
 
-.text_address{
+select {
+    width: 448px;
+    padding: 5px;
+
+}
+
+.text_address {
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +68,7 @@ textarea {
     margin-right: -5px;
 }
 
-.gender-container input{
+.gender-container input {
     width: initial;
 }
 
@@ -129,4 +135,48 @@ textarea {
     padding: 30px 50px 60px 3px;
 }
 
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #ffffff;
+    background-color: #5995da;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #76aeed;
+}
+
+.form-row button:active {
+    /* background-color: #407fc7; */
+    background-color: pink;
+}
+
+button {
+    margin: 10px 5px;
+    /*background-color: red;*/
+    clear: both;
+    text-align: right;
+    /*line-height:25px;*/
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+.form-row .checkbox-label {
+    margin-bottom: 0;
+}
+
+.form-row .checkbox-label {
+    margin-left: 120px;
+    width: auto;
+}
 
