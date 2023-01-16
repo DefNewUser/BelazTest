@@ -3,11 +3,58 @@
     margin: 0px;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
 .header {
     width: 100%;
     height: 100%;
     /*background-color: aquamarine;*/
     /*text-align: center;*/
+}
+
+.gender-fieldset{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gender-fieldset fieldset{
+    width: 79.9%;
+    margin-right: -5px;
+}
+
+.gender-container {
+    display: flex;
+    align-items: center;
+    width: 65px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.gender-container:last-child{
+    padding-bottom: 10px;
+}
+
+.text_address{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 71%;
+    margin-right: -5px;
+}
+
+.gender-container input{
+    width: initial;
 }
 
 .container {
@@ -28,12 +75,15 @@
     clear: both;
     text-align: right;
     /*line-height:25px;*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 label {
     /*background-color: brown;*/
     float: left;
-    padding-top: 8px;
 
 }
 
@@ -47,11 +97,10 @@ input {
 }
 
 fieldset {
-    padding: 5px 0 5px 3px;
-    /*background-color: red;*/
     clear: both;
     text-align: left;
     border: 3px double;
+    width: 100%;
 }
 
 .radio {
@@ -65,8 +114,9 @@ legend {
 }
 
 textarea {
-    width: 80%;
+    width: 71%;
     border-radius: 2px;
+    margin-right: -5px;
     padding: 30px 50px 60px 3px;
 }
 
