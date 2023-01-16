@@ -43,6 +43,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-bottom: 10px;
 }
 
+.form-row select {
+    /*width: 100%;*/
+    padding: 5px;
+    font-size: 14px; /* This won't work in Chrome or Safari */
+    -webkit-appearance: none; /* This will make it work */
+    width: 250px;
+    height: initial;
+}
+
 .text_address{
     display: flex;
     justify-content: space-between;
