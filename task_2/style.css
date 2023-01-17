@@ -53,9 +53,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 select {
-    width: 448px;
+    width: 81%;
     padding: 5px;
-
 }
 
 .text_address {
@@ -124,10 +123,6 @@ fieldset {
 
 }
 
-legend {
-
-}
-
 textarea {
     width: 71%;
     border-radius: 2px;
@@ -136,6 +131,7 @@ textarea {
 }
 
 .form-row button {
+    width: auto;
     font-size: 16px;
     font-weight: bold;
 
@@ -154,29 +150,30 @@ textarea {
 }
 
 .form-row button:active {
-    /* background-color: #407fc7; */
+     /*background-color: #407fc7; */
     background-color: pink;
 }
 
+
 button {
-    margin: 10px 5px;
-    /*background-color: red;*/
-    clear: both;
-    text-align: right;
-    /*line-height:25px;*/
-    display: flex;
-    align-items: center;
-    width: 70%;
-    justify-content: space-between;
+    /*margin: 10px 5px;*/
+    /*!*background-color: red;*!*/
+    /*clear: both;*/
+    /*text-align: right;*/
+    /*!*line-height:25px;*!*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*width: 70%;*/
+    /*justify-content: space-between;*/
 }
 
 
 .form-row .checkbox-label {
     margin-bottom: 0;
+
 }
 
 .form-row .checkbox-label {
     margin-left: 120px;
     width: auto;
 }
-
