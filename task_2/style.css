@@ -20,13 +20,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     /*text-align: center;*/
 }
 
+.center {
+    width: 120%;
+}
+
 .gender-fieldset {
     display: flex;
     justify-content: flex-end;
 }
 
 .gender-fieldset fieldset {
-    width: 79.9%;
+    width: 80.1%;
     margin-right: -5px;
 }
 
@@ -113,7 +117,7 @@ input {
 fieldset {
     clear: both;
     text-align: left;
-    border: 3px double;
+    /*border: 3px double;*/
     width: 100%;
 }
 
