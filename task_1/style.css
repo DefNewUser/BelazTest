@@ -1,0 +1,55 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(8, [row] 1fr);
+    background-color: darkgrey;
+    grid-column-gap: 1px;
+}
+
+.grid-item1 {
+    background-color: black;
+}
+
+.grid-item2 {
+    background-color: aqua;
+}
+
+.grid-item3 {
+    background-color: #5995da;
+}
+
+.grid-item4 {
+    background-color: aquamarine;
+}
+
+.grid-item5 {
+    background-color: blue;
+}
+
+.grid-item6 {
+    background-color: brown;
+}
+
+.grid-item7 {
+    background-color: cyan;
+}
+
+.grid-item8 {
+    background-color: crimson;
+}
+
+.grid-item9 {
+    background-color: cadetblue;
+}
+
+.grid-item10 {
+    background-color: darkslategrey;
+}
+
+.grid-item11 {
+    background-color: darkviolet;
+}
+
+.grid-item12 {
+    background-color: firebrick;
+}
