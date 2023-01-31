@@ -1,0 +1,1 @@
+Here are test tasks for BelAZ.
