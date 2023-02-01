@@ -4,6 +4,8 @@
     grid-template-rows: repeat(8, [row] 1fr);
     background-color: darkgrey;
     grid-column-gap: 1px;
+    text-align: center;
+    /*padding: .5em*/
 }
 
 .grid-item1 {
@@ -51,5 +53,269 @@
 }
 
 .grid-item12 {
+    background-color: firebrick;
+}
+
+.grid-item13 {
+    background-color: firebrick;
+}
+
+.grid-item14 {
+    background-color: black;
+}
+
+.grid-item15 {
+    background-color: aqua;
+}
+
+.grid-item16 {
+    background-color: #5995da;
+}
+
+.grid-item17 {
+    background-color: aquamarine;
+}
+
+.grid-item18 {
+    background-color: blue;
+}
+
+.grid-item19 {
+    background-color: brown;
+}
+
+.grid-item20 {
+    background-color: cyan;
+}
+
+.grid-item21 {
+    background-color: crimson;
+}
+
+.grid-item22 {
+    background-color: cadetblue;
+}
+
+.grid-item23 {
+    background-color: darkslategrey;
+}
+
+.grid-item24 {
+    background-color: darkviolet;
+}
+
+.grid-item25 {
+    background-color: firebrick;
+}
+
+.grid-item26 {
+    background-color: firebrick;
+}
+
+.grid-item27 {
+    background-color: black;
+}
+
+.grid-item28 {
+    background-color: aqua;
+}
+
+.grid-item29 {
+    background-color: #5995da;
+}
+
+.grid-item30 {
+    background-color: aquamarine;
+}
+
+.grid-item31 {
+    background-color: blue;
+}
+
+.grid-item32 {
+    background-color: brown;
+}
+
+.grid-item33 {
+    background-color: cyan;
+}
+
+.grid-item34 {
+    background-color: crimson;
+}
+
+.grid-item35 {
+    background-color: cadetblue;
+}
+
+.grid-item36 {
+    background-color: darkslategrey;
+}
+
+.grid-item37 {
+    background-color: darkviolet;
+}
+
+.grid-item38 {
+    background-color: firebrick;
+}
+
+.grid-item39 {
+    background-color: firebrick;
+}
+
+.grid-item40 {
+    background-color: black;
+}
+
+.grid-item41 {
+    background-color: aqua;
+}
+
+.grid-item42 {
+    background-color: #5995da;
+}
+
+.grid-item43 {
+    background-color: aquamarine;
+}
+
+.grid-item44 {
+    background-color: blue;
+}
+
+.grid-item45 {
+    background-color: brown;
+}
+
+.grid-item46 {
+    background-color: cyan;
+}
+
+.grid-item47 {
+    background-color: crimson;
+}
+
+.grid-item48 {
+    background-color: cadetblue;
+}
+
+.grid-item49 {
+    background-color: darkslategrey;
+}
+
+.grid-item50 {
+    background-color: darkviolet;
+}
+
+.grid-item12 {
+    background-color: firebrick;
+}
+
+.grid-item13 {
+    background-color: firebrick;
+}
+
+.grid-item1 {
+    background-color: black;
+}
+
+.grid-item2 {
+    background-color: aqua;
+}
+
+.grid-item3 {
+    background-color: #5995da;
+}
+
+.grid-item4 {
+    background-color: aquamarine;
+}
+
+.grid-item5 {
+    background-color: blue;
+}
+
+.grid-item6 {
+    background-color: brown;
+}
+
+.grid-item7 {
+    background-color: cyan;
+}
+
+.grid-item8 {
+    background-color: crimson;
+}
+
+.grid-item9 {
+    background-color: cadetblue;
+}
+
+.grid-item10 {
+    background-color: darkslategrey;
+}
+
+.grid-item11 {
+    background-color: darkviolet;
+}
+
+.grid-item12 {
+    background-color: firebrick;
+}
+
+.grid-item13 {
+    background-color: firebrick;
+}
+
+.grid-item1 {
+    background-color: black;
+}
+
+.grid-item2 {
+    background-color: aqua;
+}
+
+.grid-item3 {
+    background-color: #5995da;
+}
+
+.grid-item4 {
+    background-color: aquamarine;
+}
+
+.grid-item5 {
+    background-color: blue;
+}
+
+.grid-item6 {
+    background-color: brown;
+}
+
+.grid-item7 {
+    background-color: cyan;
+}
+
+.grid-item8 {
+    background-color: crimson;
+}
+
+.grid-item9 {
+    background-color: cadetblue;
+}
+
+.grid-item10 {
+    background-color: darkslategrey;
+}
+
+.grid-item11 {
+    background-color: darkviolet;
+}
+
+.grid-item12 {
+    background-color: firebrick;
+}
+
+.grid-item13 {
     background-color: firebrick;
 }
