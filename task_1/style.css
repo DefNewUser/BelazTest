@@ -1,15 +1,25 @@
 .grid {
     display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));*/
     grid-template-columns: repeat(12, [col] 1fr);
-    grid-template-rows: repeat(8, [row] 1fr);
+    grid-template-rows: repeat(15, [row] 1fr);
     background-color: darkgrey;
     grid-column-gap: 1px;
+    grid-row-gap: 1px;
     text-align: center;
     /*padding: .5em*/
 }
 
+.grid-item {
+    min-height: 60px;
+    background-color: greenyellow;
+    }
+
+
+
 .grid-item1 {
-    background-color: black;
+    background-color: greenyellow;
+    min-height: 50px;
 }
 
 .grid-item2 {
@@ -61,7 +71,7 @@
 }
 
 .grid-item14 {
-    background-color: black;
+    background-color: lawngreen;
 }
 
 .grid-item15 {
@@ -113,7 +123,7 @@
 }
 
 .grid-item27 {
-    background-color: black;
+    background-color: chartreuse;
 }
 
 .grid-item28 {
@@ -165,7 +175,7 @@
 }
 
 .grid-item40 {
-    background-color: black;
+    background-color: green;
 }
 
 .grid-item41 {
@@ -208,114 +218,185 @@
     background-color: darkviolet;
 }
 
-.grid-item12 {
+.grid-item51 {
     background-color: firebrick;
 }
 
-.grid-item13 {
+.grid-item52 {
     background-color: firebrick;
 }
 
-.grid-item1 {
-    background-color: black;
+.grid-item53 {
+    background-color: lightgoldenrodyellow;
 }
 
-.grid-item2 {
+.grid-item54 {
     background-color: aqua;
 }
 
-.grid-item3 {
+.grid-item55 {
     background-color: #5995da;
 }
 
-.grid-item4 {
+.grid-item56 {
     background-color: aquamarine;
 }
 
-.grid-item5 {
+.grid-item57 {
     background-color: blue;
 }
 
-.grid-item6 {
+.grid-item58 {
     background-color: brown;
 }
 
-.grid-item7 {
+.grid-item59 {
     background-color: cyan;
 }
 
-.grid-item8 {
+.grid-item60 {
     background-color: crimson;
 }
 
-.grid-item9 {
+.grid-item61 {
     background-color: cadetblue;
 }
 
-.grid-item10 {
+.grid-item62 {
     background-color: darkslategrey;
 }
 
-.grid-item11 {
+.grid-item63 {
     background-color: darkviolet;
 }
 
-.grid-item12 {
+.grid-item64 {
     background-color: firebrick;
 }
 
-.grid-item13 {
+.grid-item65 {
     background-color: firebrick;
 }
 
-.grid-item1 {
-    background-color: black;
+.grid-item66 {
+    background-color: darksalmon;
 }
 
-.grid-item2 {
+.grid-item67 {
     background-color: aqua;
 }
 
-.grid-item3 {
+.grid-item68 {
     background-color: #5995da;
 }
 
-.grid-item4 {
+.grid-item69 {
     background-color: aquamarine;
 }
 
-.grid-item5 {
+.grid-item70 {
     background-color: blue;
 }
 
-.grid-item6 {
+.grid-item71 {
     background-color: brown;
 }
 
-.grid-item7 {
+.grid-item72 {
     background-color: cyan;
 }
 
-.grid-item8 {
+.grid-item73 {
     background-color: crimson;
 }
 
-.grid-item9 {
+.grid-item74 {
     background-color: cadetblue;
 }
 
-.grid-item10 {
+.grid-item75 {
     background-color: darkslategrey;
 }
 
-.grid-item11 {
+.grid-item76 {
     background-color: darkviolet;
 }
 
-.grid-item12 {
+.grid-item77 {
     background-color: firebrick;
 }
 
-.grid-item13 {
+.grid-item78 {
+    background-color: firebrick;
+}
+
+.grid-item79 {
+    background-color: crimson;
+}
+
+.grid-item80 {
+    background-color: cadetblue;
+}
+
+.grid-item81 {
+    background-color: darkslategrey;
+}
+
+.grid-item82 {
+    background-color: darkviolet;
+}
+
+.grid-item83 {
+    background-color: firebrick;
+}
+
+.grid-item84 {
+    background-color: firebrick;
+}
+
+.grid-item85 {
+    background-color: crimson;
+}
+
+.grid-item86 {
+    background-color: cadetblue;
+}
+
+.grid-item87 {
+    background-color: darkslategrey;
+}
+
+.grid-item88 {
+    background-color: darkviolet;
+}
+
+.grid-item89 {
+    background-color: firebrick;
+}
+
+.grid-item90 {
+    background-color: firebrick;
+}
+.grid-item91 {
+    background-color: crimson;
+}
+
+.grid-item92 {
+    background-color: cadetblue;
+}
+
+.grid-item93 {
+    background-color: darkslategrey;
+}
+
+.grid-item94 {
+    background-color: darkviolet;
+}
+
+.grid-item95 {
+    background-color: firebrick;
+}
+
+.grid-item96 {
     background-color: firebrick;
 }
