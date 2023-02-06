@@ -8,7 +8,6 @@ body {
 
 .grid {
     display: grid;
-    /*grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));*/
     grid-template-columns: repeat(12, [col] 1fr);
     grid-template-rows: repeat(15, [row] 1fr);
     background-color: lightgoldenrodyellow;
@@ -22,10 +21,30 @@ body {
 .grid-item {
     min-height: 65px;
     background-color: grey;
-    /*animation: resize 3000ms ease infinite both;*/
-
-
+    animation: color-change 5s linear infinite;
 }
+
+@keyframes color-change {
+  0% {
+    background-color: blue;
+  }
+  20% {
+    background-color: green;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: red;
+  }
+  80% {
+    background-color: pink;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
 
 .grid-item29 {
     background-color: #5995da;
