@@ -11,40 +11,43 @@ body {
     grid-template-columns: repeat(12, [col] 1fr);
     grid-template-rows: repeat(15, [row] 1fr);
     background-color: lightgoldenrodyellow;
-    gap: 2px;
     text-align: center;
     margin: 80px auto;
-    /*animation: resize 3000ms ease infinite both;*/
-    /*padding: .5em*/
+
 }
 
 .grid-item {
     min-height: 65px;
     background-color: grey;
     animation: color-change 5s linear infinite;
+    border: 1px solid #000000;
+}
+
+.grid-item29:hover {
+    transform: translateZ(100px);
+    box-shadow: 10px 6px 15px rgb(0, 0, 0), -1px -1px 6px rgb(52, 51, 51);
 }
 
 @keyframes color-change {
   0% {
-    background-color: blue;
+    background-color: #e0dede;
   }
   20% {
-    background-color: green;
+    background-color: #b8b6b6;
   }
   40% {
-    background-color: yellow;
+    background-color: #5e5d5d;
   }
   60% {
-    background-color: red;
+    background-color: #7f7e7e;
   }
   80% {
-    background-color: pink;
+    background-color: #b8b6b6;
   }
   100% {
-    background-color: blue;
+    background-color: #e0dede;
   }
 }
-
 
 .grid-item29 {
     background-color: #5995da;
