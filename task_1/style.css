@@ -19,14 +19,14 @@ body {
 .grid-item {
     min-height: 65px;
     background-color: grey;
-    animation: color-change 5s linear infinite;
+    animation: color-change 5s linear infinite; /*анимация цвета*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #000000;
+    transition: all 0.1s ease-in-out;
 }
 
-.grid-item29:hover {
-    transform: translateZ(100px);
-    box-shadow: 10px 6px 15px rgb(0, 0, 0), -1px -1px 6px rgb(52, 51, 51);
-}
 
 @keyframes color-change {
   0% {
@@ -49,11 +49,28 @@ body {
   }
 }
 
+.grid-item29:hover {
+    /*transform: translateZ(100px);*/
+    transform: translate3d(-5px, -2px, 25px);
+    box-shadow: 20px 6px 4px rgb(45, 43, 43);
+    border: 2px solid black
+}
+
 .grid-item29 {
     background-color: #5995da;
     /*grid-row: row 3 / row 6;*/
     grid-row: span 3;
     grid-column: col 5 / col 6;
+
+
+
+}
+
+.grid-item38:hover {
+    /*transform: translateZ(100px);*/
+    transform: translate3d(-5px, -2px, 25px);
+    box-shadow: 20px 6px 4px rgb(45, 43, 43);
+    border: 2px solid black
 }
 
 .grid-item38 {
