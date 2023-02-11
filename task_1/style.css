@@ -10,21 +10,25 @@ body {
     display: grid;
     grid-template-columns: repeat(12, [col] 1fr);
     grid-template-rows: repeat(15, [row] 1fr);
-    background-color: lightgoldenrodyellow;
+    background-color: #efefdf;
     text-align: center;
-    margin: 80px auto;
+    perspective: 500px;
+    /*margin: 80px auto;*/
+
 
 }
 
 .grid-item {
     min-height: 65px;
     background-color: grey;
-    animation: color-change 5s linear infinite; /*анимация цвета*/
+    animation: color-change 3s linear infinite; /*анимация цвета*/
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #000000;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    /*transform-style: preserve-3d;*/
+
 }
 
 
@@ -51,9 +55,10 @@ body {
 
 .grid-item29:hover {
     /*transform: translateZ(100px);*/
-    transform: translate3d(-5px, -2px, 25px);
-    box-shadow: 20px 6px 4px rgb(45, 43, 43);
-    border: 2px solid black
+    transform: translate3d(-15px, -2px, 0px);
+    box-shadow: 20px 10px 10px rgb(45, 43, 43);
+    animation: color-change-big 1s linear infinite;
+
 }
 
 .grid-item29 {
@@ -62,15 +67,15 @@ body {
     grid-row: span 3;
     grid-column: col 5 / col 6;
 
-
-
 }
+
+
 
 .grid-item38:hover {
     /*transform: translateZ(100px);*/
-    transform: translate3d(-5px, -2px, 25px);
-    box-shadow: 20px 6px 4px rgb(45, 43, 43);
-    border: 2px solid black
+    transform: translate3d(-15px, -2px, 0px);
+    box-shadow: 20px 10px 10px rgb(45, 43, 43);
+    animation: color-change-big 1s linear infinite;
 }
 
 .grid-item38 {
@@ -78,15 +83,58 @@ body {
     grid-column: col 2 / col 4;
 }
 
+
+
+
 .grid-item43 {
     background-color: aquamarine;
     grid-column: col 9 / col 11;
 }
 
+.grid-item43:hover {
+    /*transform: translateZ(100px);*/
+    transform: translate3d(-15px, -2px, 0px);
+    box-shadow: 20px 10px 10px rgb(45, 43, 43);
+    animation: color-change-big 1s linear infinite;
+}
+
+
+
 .grid-item63 {
     background-color: darkviolet;
     grid-column: col 7 / col 9;
 }
+
+.grid-item63:hover {
+    /*transform: translateZ(100px);*/
+    transform: translate3d(-15px, -2px, 0px);
+    box-shadow: 20px 10px 10px rgb(45, 43, 43);
+    animation: color-change-big 1s linear infinite;
+}
+
+
+
+@keyframes color-change-big {
+  0% {
+    background-color: #f8f800;
+  }
+  20% {
+    background-color: #0080ff;
+  }
+  40% {
+    background-color: #ec0000;
+  }
+  60% {
+    background-color: #06e706;
+  }
+  80% {
+    background-color: #7109d9;
+  }
+  100% {
+    background-color: #08fcfc;
+  }
+}
+
 
 
 /*.grid-item1 {*/
