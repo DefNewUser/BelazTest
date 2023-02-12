@@ -6,111 +6,275 @@ body {
   background-color: #23262d;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(12, [col] 1fr);
-    grid-template-rows: repeat(15, [row] 1fr);
-    background-color: #efefdf;
-    text-align: center;
-    perspective: 500px;
-    /*margin: 80px auto;*/
 
-
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(15, [row] 1fr);
+  background-color: #efefdf;
+  text-align: center;
+  perspective: 1300px;
+  perspective-origin: center;
 }
 
-.grid-item {
-    min-height: 65px;
-    background-color: grey;
-    animation: color-change 3s linear infinite; /*анимация цвета*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #000000;
-    transition: all 0.25s ease-in-out;
-    /*transform-style: preserve-3d;*/
-
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6,
+.grid-item7,
+.grid-item8,
+.grid-item9,
+.grid-item10,
+.grid-item11,
+.grid-item12,
+.grid-item13,
+.grid-item14,
+.grid-item15,
+.grid-item16,
+.grid-item17,
+.grid-item18,
+.grid-item19,
+.grid-item20,
+.grid-item21,
+.grid-item22,
+.grid-item23,
+.grid-item24,
+.grid-item25,
+.grid-item26,
+.grid-item27,
+.grid-item28,
+.grid-item29,
+.grid-item30,
+.grid-item31,
+.grid-item32,
+.grid-item33,
+.grid-item34,
+.grid-item35,
+.grid-item36,
+.grid-item37,
+.grid-item38,
+.grid-item39,
+.grid-item40,
+.grid-item41,
+.grid-item42,
+.grid-item43,
+.grid-item44,
+.grid-item45,
+.grid-item46,
+.grid-item47,
+.grid-item48,
+.grid-item49,
+.grid-item50,
+.grid-item51,
+.grid-item52,
+.grid-item53,
+.grid-item54,
+.grid-item55,
+.grid-item56,
+.grid-item57,
+.grid-item58,
+.grid-item59,
+.grid-item60,
+.grid-item61,
+.grid-item62,
+.grid-item63,
+.grid-item64,
+.grid-item65,
+.grid-item66,
+.grid-item67,
+.grid-item68,
+.grid-item69,
+.grid-item70,
+.grid-item71,
+.grid-item72,
+.grid-item73,
+.grid-item74,
+.grid-item75,
+.grid-item76,
+.grid-item77,
+.grid-item78,
+.grid-item79,
+.grid-item80,
+.grid-item81,
+.grid-item82,
+.grid-item83,
+.grid-item84,
+.grid-item85,
+.grid-item86,
+.grid-item87,
+.grid-item88,
+.grid-item89,
+.grid-item90,
+.grid-item91{
+/* ... */
+  min-height: 65px;
+  background-color: grey;
+  animation: color-change 3s linear infinite;
+  display: flex;
+  justify-content: center;
+  transform: translateZ(10px);
+  transition: all 0.25s ease-in-out;
+  border: 1px solid #1c1b1b;
+  position: relative;
 }
 
+.grid-item1:hover,
+.grid-item2:hover,
+.grid-item3:hover,
+.grid-item4:hover,
+.grid-item5:hover,
+.grid-item6:hover,
+.grid-item7:hover,
+.grid-item8:hover,
+.grid-item9:hover,
+.grid-item10:hover,
+.grid-item11:hover,
+.grid-item12:hover,
+.grid-item13:hover,
+.grid-item14:hover,
+.grid-item15:hover,
+.grid-item16:hover,
+.grid-item17:hover,
+.grid-item18:hover,
+.grid-item19:hover,
+.grid-item20:hover,
+.grid-item21:hover,
+.grid-item22:hover,
+.grid-item23:hover,
+.grid-item24:hover,
+.grid-item25:hover,
+.grid-item26:hover,
+.grid-item27:hover,
+.grid-item28:hover,
+.grid-item29:hover,
+.grid-item30:hover,
+.grid-item31:hover,
+.grid-item32:hover,
+.grid-item33:hover,
+.grid-item34:hover,
+.grid-item35:hover,
+.grid-item36:hover,
+.grid-item37:hover,
+.grid-item38:hover,
+.grid-item39:hover,
+.grid-item40:hover,
+.grid-item41:hover,
+.grid-item42:hover,
+.grid-item43:hover,
+.grid-item44:hover,
+.grid-item45:hover,
+.grid-item46:hover,
+.grid-item47:hover,
+.grid-item48:hover,
+.grid-item49:hover,
+.grid-item50:hover,
+.grid-item51:hover,
+.grid-item52:hover,
+.grid-item53:hover,
+.grid-item54:hover,
+.grid-item55:hover,
+.grid-item56:hover,
+.grid-item57:hover,
+.grid-item58:hover,
+.grid-item59:hover,
+.grid-item60:hover,
+.grid-item61:hover,
+.grid-item62:hover,
+.grid-item63:hover,
+.grid-item64:hover,
+.grid-item65:hover,
+.grid-item66:hover,
+.grid-item67:hover,
+.grid-item68:hover,
+.grid-item69:hover,
+.grid-item70:hover,
+.grid-item71:hover,
+.grid-item72:hover,
+.grid-item73:hover,
+.grid-item74:hover,
+.grid-item75:hover,
+.grid-item76:hover,
+.grid-item77:hover,
+.grid-item78:hover,
+.grid-item79:hover,
+.grid-item80:hover,
+.grid-item81:hover,
+.grid-item82:hover,
+.grid-item83:hover,
+.grid-item84:hover,
+.grid-item85:hover,
+.grid-item86:hover,
+.grid-item87:hover,
+.grid-item88:hover,
+.grid-item89:hover,
+.grid-item90:hover,
+.grid-item91:hover
+/* ... */ {
+  transform: translateZ(50px);
+  z-index: 1;
 
-@keyframes color-change {
-  0% {
-    background-color: #e0dede;
-  }
-  20% {
-    background-color: #b8b6b6;
-  }
-  40% {
-    background-color: #5e5d5d;
-  }
-  60% {
-    background-color: #7f7e7e;
-  }
-  80% {
-    background-color: #b8b6b6;
-  }
-  100% {
-    background-color: #e0dede;
-  }
-}
-
-.grid-item29:hover {
-    /*transform: translateZ(100px);*/
-    transform: translate3d(-15px, -2px, 0px);
-    box-shadow: 20px 10px 10px rgb(45, 43, 43);
-    animation: color-change-big 1s linear infinite;
-
+  /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/
 }
 
 .grid-item29 {
-    background-color: #5995da;
-    /*grid-row: row 3 / row 6;*/
-    grid-row: span 3;
-    grid-column: col 5 / col 6;
+  grid-row: span 3;
+  grid-column: col 5 / col 6;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
 
+.grid-item29:hover {
+  animation: color-change-big 1s linear infinite;
 }
 
 
 
 .grid-item38:hover {
-    /*transform: translateZ(100px);*/
-    transform: translate3d(-15px, -2px, 0px);
-    box-shadow: 20px 10px 10px rgb(45, 43, 43);
     animation: color-change-big 1s linear infinite;
 }
 
 .grid-item38 {
-    background-color: firebrick;
     grid-column: col 2 / col 4;
+    display: flex;
+    align-items: center;
+    writing-mode: horizontal-tb;
+    text-align: center;
 }
 
 
 
 
 .grid-item43 {
-    background-color: aquamarine;
     grid-column: col 9 / col 11;
+    display: flex;
+    align-items: center;
+    writing-mode: horizontal-tb;
+    text-align: center;
 }
 
 .grid-item43:hover {
-    /*transform: translateZ(100px);*/
-    transform: translate3d(-15px, -2px, 0px);
-    box-shadow: 20px 10px 10px rgb(45, 43, 43);
     animation: color-change-big 1s linear infinite;
 }
+
 
 
 
 .grid-item63 {
-    background-color: darkviolet;
     grid-column: col 7 / col 9;
+    display: flex;
+    align-items: center;
+    writing-mode: horizontal-tb;
+    text-align: center;
 }
 
 .grid-item63:hover {
-    /*transform: translateZ(100px);*/
-    transform: translate3d(-15px, -2px, 0px);
-    box-shadow: 20px 10px 10px rgb(45, 43, 43);
-    animation: color-change-big 1s linear infinite;
+  animation: color-change-big 1s linear infinite;
 }
+
 
 
 
@@ -136,384 +300,23 @@ body {
 }
 
 
-
-/*.grid-item1 {*/
-/*    background-color: greenyellow;*/
-/*    !*min-height: 50px;*!*/
-/*}*/
-
-/*.grid-item2 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*.grid-item3 {*/
-/*    background-color: #5995da;*/
-/*}*/
-
-/*.grid-item4 {*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.grid-item5 {*/
-/*    background-color: blue;*/
-/*}*/
-
-/*.grid-item6 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item7 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item8 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item9 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item10 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item11 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item12 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item13 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item14 {*/
-/*    background-color: lawngreen;*/
-/*}*/
-
-/*.grid-item15 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*.grid-item16 {*/
-/*    background-color: #5995da;*/
-/*}*/
-
-/*.grid-item17 {*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.grid-item18 {*/
-/*    background-color: blue;*/
-/*}*/
-
-/*.grid-item19 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item20 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item21 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item22 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item23 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item24 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item25 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item26 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item27 {*/
-/*    background-color: chartreuse;*/
-/*}*/
-
-/*.grid-item28 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-
-
-/*.grid-item30 {*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.grid-item31 {*/
-/*    background-color: blue;*/
-/*}*/
-
-/*.grid-item32 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item33 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item34 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item35 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item36 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item37 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-
-
-/*.grid-item39 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item40 {*/
-/*    background-color: green;*/
-/*}*/
-
-/*.grid-item41 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*.grid-item42 {*/
-/*    background-color: #5995da;*/
-/*}*/
-
-
-
-/*.grid-item44 {*/
-/*    background-color: blue;*/
-
-/*}*/
-
-/*.grid-item45 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item46 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item47 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item48 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item49 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item50 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item51 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item52 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item53 {*/
-/*    background-color: lightgoldenrodyellow;*/
-/*}*/
-
-/*.grid-item54 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*.grid-item55 {*/
-/*    background-color: #5995da;*/
-/*}*/
-
-/*.grid-item56 {*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.grid-item57 {*/
-/*    background-color: blue;*/
-/*}*/
-
-/*.grid-item58 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item59 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item60 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item61 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item62 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-
-/*.grid-item64 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item65 {*/
-/*    background-color: firebrick;*/
-
-/*}*/
-
-/*.grid-item66 {*/
-/*    background-color: darksalmon;*/
-/*}*/
-
-/*.grid-item67 {*/
-/*    background-color: aqua;*/
-/*}*/
-
-/*.grid-item68 {*/
-/*    background-color: #5995da;*/
-/*}*/
-
-/*.grid-item69 {*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.grid-item70 {*/
-/*    background-color: blue;*/
-/*}*/
-
-/*.grid-item71 {*/
-/*    background-color: brown;*/
-/*}*/
-
-/*.grid-item72 {*/
-/*    background-color: cyan;*/
-/*}*/
-
-/*.grid-item73 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item74 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item75 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item76 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item77 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item78 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item79 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item80 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item81 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item82 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item83 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item84 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item85 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-/*.grid-item86 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item87 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item88 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item89 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item90 {*/
-/*    background-color: firebrick;*/
-/*}*/
-/*.grid-item91 {*/
-/*    background-color: crimson;*/
-/*}*/
-
-
-
-
-
-/*.grid-item92 {*/
-/*    background-color: cadetblue;*/
-/*}*/
-
-/*.grid-item93 {*/
-/*    background-color: darkslategrey;*/
-/*}*/
-
-/*.grid-item94 {*/
-/*    background-color: darkviolet;*/
-/*}*/
-
-/*.grid-item95 {*/
-/*    background-color: firebrick;*/
-/*}*/
-
-/*.grid-item96 {*/
-/*    background-color: firebrick;*/
-/*}*/
+@keyframes color-change {
+  0% {
+    background-color: #e0dede;
+  }
+  20% {
+    background-color: #b8b6b6;
+  }
+  40% {
+    background-color: #5e5d5d;
+  }
+  60% {
+    background-color: #7f7e7e;
+  }
+  80% {
+    background-color: #b8b6b6;
+  }
+  100% {
+    background-color: #e0dede;
+  }
+}
