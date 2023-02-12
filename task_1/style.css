@@ -13,7 +13,7 @@ body {
   grid-template-rows: repeat(15, [row] 1fr);
   background-color: #efefdf;
   text-align: center;
-  perspective: 1300px;
+  perspective: 1200px;
   perspective-origin: center;
 }
 
@@ -212,7 +212,7 @@ body {
 .grid-item90:hover,
 .grid-item91:hover
 /* ... */ {
-  transform: translateZ(50px);
+  transform: translateZ(70px);
   z-index: 1;
 
   /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/
