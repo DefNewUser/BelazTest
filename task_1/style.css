@@ -120,8 +120,8 @@ body {
   position: relative;
 }
 
-/*.grid-item1:hover,*/
-/*.grid-item2:hover,*/
+.grid-item1:hover,
+.grid-item2:hover,
 .grid-item3:hover,
 .grid-item4:hover,
 .grid-item5:hover,
@@ -131,8 +131,8 @@ body {
 .grid-item9:hover,
 .grid-item10:hover,
 .grid-item11:hover,
-/*.grid-item12:hover,*/
-/*.grid-item13:hover,*/
+.grid-item12:hover,
+.grid-item13:hover,
 .grid-item14:hover,
 .grid-item15:hover,
 .grid-item16:hover,
@@ -144,8 +144,8 @@ body {
 .grid-item22:hover,
 .grid-item23:hover,
 .grid-item24:hover,
-/*.grid-item25:hover,*/
-/*.grid-item26:hover,*/
+.grid-item25:hover,
+.grid-item26:hover,
 .grid-item27:hover,
 .grid-item28:hover,
 .grid-item29:hover,
@@ -219,12 +219,12 @@ body {
 }
 
 .grid-item29 {
-  grid-row: span 3;
-  grid-column: col 5 / col 6;
-  display: flex;
-  align-items: center;
-  writing-mode: vertical-rl;
-  text-align: center;
+    grid-row: span 3;
+    grid-column: col 5 / col 6;
+    display: flex;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-align: center;
 }
 
 .grid-item29:hover {
@@ -275,14 +275,56 @@ body {
   animation: color-change-big 1s linear infinite;
 }
 
-.grid-item1:hover,
-.grid-item2:hover,
-.grid-item13:hover,
-.grid-item14:hover,
-.grid-item25:hover,
-.grid-item26:hover {
-    animation: color-change-group 1s linear infinite;
+.grid-item1,
+.grid-item2,
+.grid-item13,
+.grid-item14,
+.grid-item25,
+.grid-item6,
+.grid-item18,
+.grid-item30,
+.grid-item40,
+.grid-item50,
+.grid-item11,
+.grid-item23,
+.grid-item35,
+.grid-item44,
+.grid-item55,
+.grid-item66,
+.grid-item78,
+.grid-item90,
+.grid-item64,
+.grid-item98,
+.grid-item81,
+.grid-item27{
+    animation: color-change-group 3s linear infinite;
 }
+
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item80,
+.grid-item81,
+.grid-item82,
+.grid-item57,
+.grid-item58,
+.grid-item41,
+.grid-item8,
+.grid-item9,
+.grid-item85,
+.grid-item35,
+.grid-item33,
+.grid-item52,
+.grid-item74,
+.grid-item39,
+.grid-item22,
+.grid-item21,
+.grid-item87,
+.grid-item60,
+.grid-item86{
+    animation: color-change-group 4s linear infinite;
+}
+
 
 
 @keyframes color-change-big {
@@ -346,5 +388,26 @@ body {
   }
   100% {
     background-color: #5e5d5d;
+  }
+}
+
+@keyframes color-change-group2 {
+  0% {
+    background-color: #b8b6b6;
+  }
+  20% {
+    background-color: #f1eded;
+  }
+  40% {
+    background-color: #b8b6b6;
+  }
+  60% {
+    background-color: #7f7e7e;
+  }
+  80% {
+    background-color: #5e5d5d;
+  }
+  100% {
+    background-color: #b8b6b6;
   }
 }
