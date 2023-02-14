@@ -120,8 +120,8 @@ body {
   position: relative;
 }
 
-.grid-item1:hover,
-.grid-item2:hover,
+/*.grid-item1:hover,*/
+/*.grid-item2:hover,*/
 .grid-item3:hover,
 .grid-item4:hover,
 .grid-item5:hover,
@@ -131,8 +131,8 @@ body {
 .grid-item9:hover,
 .grid-item10:hover,
 .grid-item11:hover,
-.grid-item12:hover,
-.grid-item13:hover,
+/*.grid-item12:hover,*/
+/*.grid-item13:hover,*/
 .grid-item14:hover,
 .grid-item15:hover,
 .grid-item16:hover,
@@ -144,8 +144,8 @@ body {
 .grid-item22:hover,
 .grid-item23:hover,
 .grid-item24:hover,
-.grid-item25:hover,
-.grid-item26:hover,
+/*.grid-item25:hover,*/
+/*.grid-item26:hover,*/
 .grid-item27:hover,
 .grid-item28:hover,
 .grid-item29:hover,
@@ -212,7 +212,7 @@ body {
 .grid-item90:hover,
 .grid-item91:hover
 /* ... */ {
-  transform: translateZ(70px);
+  transform: translateZ(50px);
   z-index: 1;
 
   /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/
@@ -275,7 +275,14 @@ body {
   animation: color-change-big 1s linear infinite;
 }
 
-
+.grid-item1:hover,
+.grid-item2:hover,
+.grid-item13:hover,
+.grid-item14:hover,
+.grid-item25:hover,
+.grid-item26:hover {
+    animation: color-change-group 1s linear infinite;
+}
 
 
 @keyframes color-change-big {
@@ -318,5 +325,26 @@ body {
   }
   100% {
     background-color: #e0dede;
+  }
+}
+
+@keyframes color-change-group {
+  0% {
+    background-color: #5e5d5d;
+  }
+  20% {
+    background-color: #b8b6b6;
+  }
+  40% {
+    background-color: #f1eded;
+  }
+  60% {
+    background-color: #b8b6b6;
+  }
+  80% {
+    background-color: #7f7e7e;
+  }
+  100% {
+    background-color: #5e5d5d;
   }
 }
