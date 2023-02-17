@@ -413,7 +413,8 @@ body {
   }
 }
 
-.grid-item23:hover {
+.grid-item23:hover,
+.grid-item11:hover {
     box-shadow:
 
     /* Sides */
@@ -433,14 +434,14 @@ body {
     -14px 13px 1px #4b4a4a, -13px 14px 1px #1f1e1e,
     -15px 13px 1px #4b4a4a, -14px 14px 1px #1f1e1e,
     -16px 13px 1px #4b4a4a, -15px 14px 1px #1f1e1e,
-    -17px 13px 1px #4b4a4a, -16px 14px 1px #1f1e1e
+    -17px 13px 1px #4b4a4a, -16px 14px 1px #1f1e1e,
     /* etc */
 
-    /*!* Shadow *!*/
-    /*-6px 7px  0 rgba(0, 0, 0, 0.05),*/
-    /*-5px 8px  0 rgba(0, 0, 0, 0.05),*/
-    /*-3px 9px  0 rgba(0, 0, 0, 0.04),*/
-    /*!* etc *!*/
+    /* Shadow */
+    -16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+    -15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+    -13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+    /* etc */
 
     /*!* Light & Top Edge *!*/
     /*inset 0 4px 5px -2px rgba(255, 255, 255, 0.5),*/
