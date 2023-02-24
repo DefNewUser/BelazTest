@@ -565,16 +565,16 @@ body {
     box-shadow:
 
     /* Sides */
-    -1px 0 2px  #555454,        -1px 0.25px 2px  #000000,
-    -3px 0.25px 2px  #555454,   -3px 0.5px 2px  #000000,
-    -5px 0.5px 2px  #555454,    -5px 0.75px 2px  #000000,
-    -7px 0.75px 2px  #555454,   -7px 1px 2px #000000,
-    -9px 1px 2px  #555454,      -9px 1px 1.25px #000000,
-    -11px 1.25px 2px  #555454,  -11px 1.5px 2px #000000,
-    -13px 1.5px 2px  #555454,   -13px 1.77px 2px #000000,
-    -15px 1.75px 2px  #555454,  -15px 2px 2px #000000,
-    -17px 2px 2px  #555454,     -17px 2.25px 2px #000000,
-    -19px 2.25px 2px  #555454,  -19px 2.5px 2px #000000,
+    -1px 0 3px  #555454,        -1px 0.25px 2px  #000000,
+    -3px 0.25px 3px  #555454,   -3px 0.5px 2px  #000000,
+    -5px 0.5px 3px  #555454,    -5px 0.75px 2px  #000000,
+    -7px 0.75px 3px  #555454,   -7px 1px 2px #000000,
+    -9px 1px 3px  #555454,      -9px 1px 1.25px #000000,
+    -11px 1.25px 3px  #555454,  -11px 1.5px 2px #000000,
+    -13px 1.5px 3px  #555454,   -13px 1.75px 2px #000000,
+    -15px 1.75px 3px  #555454,  -15px 2px 2px #000000,
+    -17px 2px 3px  #555454,     -17px 2.25px 2px #000000,
+    -19px 2.25px 3px  #555454,  -19px 2.5px 2px #000000,
 
     /* Shadow */
     -16px 5px  10px 10px rgba(0, 0, 0, 0.25),
@@ -584,20 +584,25 @@ body {
 }
 
 
-.grid-item44:hover {
+.grid-item45:hover {
     box-shadow:
 
     /* Sides */
-    -1px 0 2px  #555454,        -1px 0.25px 2px  #000000,
-    -3px 0.25px 2px  #555454,   -3px 0.5px 2px  #000000,
-    -5px 0.5px 2px  #555454,    -5px 0.75px 2px  #000000,
-    -7px 0.75px 2px  #555454,   -7px 1px 2px #000000,
-    -9px 1px 2px  #555454,      -9px 1px 1.25px #000000,
-    -11px 1.25px 2px  #555454,  -11px 1.5px 2px #000000,
-    -13px 1.5px 2px  #555454,   -13px 1.77px 2px #000000,
-    -15px 1.75px 2px  #555454,  -15px 2px 2px #000000,
-    -17px 2px 2px  #555454,     -17px 2.25px 2px #000000,
-    -19px 2.25px 2px  #555454,  -19px 2.5px 2px #000000,
+    -1px 0 2px  #555454,        -1px 0.2px 2px  #000000,
+    -3px 0.2px 2px  #555454,   -3px 0.4px 2px  #000000,
+    -5px 0.4px 2px  #555454,    -5px 0.6px 2px  #000000,
+    -7px 0.6px 2px  #555454,   -7px 0.8px 2px #000000,
+    -9px 0.8px 2px  #555454,      -9px 1px 1.25px #000000,
+    -11px 1px 2px  #555454,  -11px 1.2px 2px #000000,
+    -13px 1.2px 2px  #555454,   -13px 1.4px 2px #000000,
+    -15px 1.4px 2px  #555454,  -15px 1.6px 2px #000000,
+    -17px 1.6px 3px #555454,     -17px 1.8px 2px #000000,
+    -19px 1.8px 3px #555454,    -19px 2px 2px #000000,
+    -20px 2px 3px #555454,      -20px 2.1px 2px #000000,
+    -21px 2.1px 3px #555454,      -21px 2.2px 2px #000000,
+    -22px 2.2px 3px #555454,      -22px 2.3px 2px #000000,
+    -23px 2.4px 3px #555454,      -23px 2.4px 2px #000000,
+    -23px 2.5px 3px #555454,      -24px 2.5px 2px #000000,
 
     /* Shadow */
     -16px 5px  10px 10px rgba(0, 0, 0, 0.25),
