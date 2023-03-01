@@ -831,3 +831,429 @@ body {
     13px -19px  10px 12px rgba(0, 0, 0, 0.24);
 
 }
+
+
+
+/* ---------------LEFT---------------------*/
+
+
+
+
+.grid-item2:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 2px #555454,       1px 1px 2px #000000,
+  3px 1px 2px #555454,       3px 2px 2px  #000000,
+  5px 2px 2px #555454,       5px 3px 2px  #000000,
+  7px 3px 2px #555454,       7px 4px 2px #000000,
+  9px 4px 2px #555454,       9px 5px 2px #000000,
+  11px 5px 2px #555454,      11px 6px 2px #000000,
+  13px 6px 2px #555454,      13px 6.5px 2px #000000,
+  15px 6.5px 2px #555454,    15px 7px 2px #000000,
+  17px 7px 2px #555454,      18px 7.5px 2px #000000,
+  19px 7.5px 2px #555454,    19px 8px 2px #000000,
+  20px 8px 2px #555454,      20px 9px 2px #000000,
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item1:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px #555454,       1px 1px 2px #000000,
+  3px 1px 3px #555454,       3px 2px 2px  #000000,
+  5px 2px 3px #555454,       5px 3px 2px  #000000,
+  7px 3px 3px #555454,       7px 4px 2px #000000,
+  9px 4px 3px #555454,       9px 5px 2px #000000,
+  11px 5px 3px #555454,      11px 6px 2px #000000,
+  13px 6px 3px #555454,      13px 7px 2px #000000,
+  15px 6.5px 3px #555454,    15px 7px 2px #000000,
+  17px 7px 3px #555454,      17px 8.5px 2px #000000,
+  19px 7.5px 3px #555454,    19px 9px 2px #000000,
+  20px 8px 3px #555454,      20px 9.5px 2px #000000,
+  21px 8.5px 3px #555454,    21px 9px 2px #000000,
+  22px 9px 3px #555454,      22px 9px 2px #000000,
+  23px 9px 3px #555454,      24px 9px 2px #000000,
+  24px 9px 3px #555454,      25px 9px 2px #000000,
+
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item14:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px #555454,       1px 1px 2px #000000,
+  3px 0.5px 3px #555454,     3px 1px 2px  #000000,
+  5px 1px 3px #555454,       5px 2px 2px  #000000,
+  7px 1.5px 3px #555454,     7px 3px 2px #000000,
+  9px 2px 3px #555454,       9px 3px 2px #000000,
+  11px 2.5px 3px #555454,    11px 4px 2px #000000,
+  13px 3px 3px #555454,      13px 5px 2px #000000,
+  15px 3.5px 3px #555454,    15px 6px 2px #000000,
+  17px 4px 3px #555454,      18px 6px 2px #000000,
+  19px 5px 3px #555454,      19px 6px 2px #000000,
+
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+}
+
+.grid-item13:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px #555454,       1px 0.5px 2px #000000,
+  3px 0.5px 3px #555454,     3px 1px 2px  #000000,
+  5px 1px 3px #555454,       5px 1.5px 2px  #000000,
+  7px 1.5px 3px #555454,     7px 2px 2px #000000,
+  9px 2px 3px #555454,       9px 2.5px 2px #000000,
+  11px 2.5px 3px #555454,    11px 3px 2px #000000,
+  13px 3px 3px #555454,      13px 3.5px 2px #000000,
+  15px 3.5px 3px #555454,    15px 4px 2px #000000,
+  17px 4px 3px #555454,      17px 4.5px 2px #000000,
+  19px 4.5px 3px #555454,    19px 5px 2px #000000,
+  20px 5px 3px #555454,      20px 5.5px 2px #000000,
+  21px 5.5px 3px #555454,    21px 6px 2px #000000,
+  22px 6px 3px #555454,      22px 6.5px 2px #000000,
+  23px 6px 3px #555454,      23px 6.5px 2px #000000,
+  24px 6px 3px #555454,      24px 6.5px 2px #000000,
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+}
+
+.grid-item26:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0 2px #555454,         1px 0.5px 2px #000000,
+  3px 0.5px 2px #555454,     3px 1px 2px  #000000,
+  5px 1px 2px #555454,       5px 1.5px 2px  #000000,
+  7px 1.5px 2px #555454,     7px 2px 2px #000000,
+  9px 2px 2px #555454,       9px 2.5px 2px #000000,
+  11px 2.5px 2px #555454,    11px 3px 2px #000000,
+  13px 2.9px 2px #555454,    13px 3.25px 2px #000000,
+  15px 3.4px 2px #555454,    15px 3.4px 2px #000000,
+  17px 3.8px 2px #555454,    17px 3.9px 2px #000000,
+  19px 3.9px 2px #555454,    19px 4px 2px #000000,
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item25:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0 3px #555454,          1px 0.25px 3px #000000,
+  3px 0.25px 3px #555454,     3px 0.5px 3px  #000000,
+  5px 0.5px 3px #555454,      5px 0.75px 3px  #000000,
+  7px 0.75px 3px #555454,     7px 1px 3px #000000,
+  9px 1px 3px #555454,        9px 1.25px 3px #000000,
+  11px 1.25px 3px #555454,    11px 1.5px 3px #000000,
+  13px 1.5px 3px #555454,     13px 1.75px 3px #000000,
+  15px 1.75px 3px #555454,    15px 2px 3px #000000,
+  17px 2px 3px #555454,       17px 2.25px 3px #000000,
+  19px 2.25px 3px #555454,    19px 2.5px 3px #000000,
+  20px 2.5px 3px #555454,     20px 2.75px 3px #000000,
+  21px 2.75px 3px #555454,    21px 3px 3px #000000,
+  22px 3px 3px #555454,       22px 3.4px 3px #000000,
+  23px 3.4px 3px #555454,     23px 3.8px 3px #000000,
+  24px 4px 3px #555454,       24px 4px 3px #000000,
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+/* MAIN */
+.grid-item38:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0 3px  #555454,        1px 0.25px 2px  #000000,
+  3px 0.25px 3px  #555454,   3px 0.5px 2px  #000000,
+  5px 0.5px 3px  #555454,    5px 0.75px 2px  #000000,
+  7px 0.75px 3px  #555454,   7px 1px 2px #000000,
+  9px 1px 3px  #555454,      9px 1.25px 2px #000000,
+  11px 1.25px 3px  #555454,  11px 1.5px 2px #000000,
+  13px 1.5px 3px  #555454,   13px 1.75px 2px #000000,
+  15px 1.75px 3px  #555454,  15px 2px 2px #000000,
+  17px 2px 3px  #555454,     17px 2.25px 2px #000000,
+  19px 2.25px 3px  #555454,  19px 2.5px 2px #000000,
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  28px 1px  10px 1px rgba(0, 0, 0, 0.25),
+  29px 1px  10px 1px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 6px rgba(0, 0, 0, 0.24);
+
+}
+
+
+.grid-item37:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0 2px  #555454,         1px 0.2px 2px  #000000,
+  3px 0.2px 2px  #555454,     3px 0.4px 2px  #000000,
+  5px 0.4px 2px  #555454,     5px 0.6px 2px  #000000,
+  7px 0.6px 2px  #555454,     7px 0.8px 2px #000000,
+  9px 0.8px 2px  #555454,     9px 1.25px 2px #000000,
+  11px 1px 2px  #555454,      11px 1.2px 2px #000000,
+  13px 1.2px 2px  #555454,    13px 1.4px 2px #000000,
+  15px 1.4px 2px  #555454,    15px 1.6px 2px #000000,
+  17px 1.6px 3px #555454,     17px 1.8px 2px #000000,
+  19px 1.8px 3px #555454,     19px 2px 2px #000000,
+  20px 2px 3px #555454,       20px 2.1px 2px #000000,
+  21px 2.1px 3px #555454,     21px 2.2px 2px #000000,
+  22px 2.2px 3px #555454,     22px 2.3px 2px #000000,
+  23px 2.4px 3px #555454,     23px 2.4px 2px #000000,
+  23px 2.5px 3px #555454,     24px 2.5px 2px #000000,
+
+  /* Shadow */
+  16px 5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+
+.grid-item46:hover {
+box-shadow:
+
+/* Sides */
+1px 0 2px  #555454,           1px -0.1px 2px  #000000,
+3px -0.1px 3px  #555454,      3px -0.15px 2px  #000000,
+5px -0.15px 3px  #555454,     5px -0.2px 2px  #000000,
+7px -0.2px 3px  #555454,      7px -0.25px 2px #000000,
+9px -0.25px 3px  #555454,     9px -0.3px 2px #000000,
+11px -0.3px 3px  #555454,     11px -0.35px 2px #000000,
+13px -0.35px 3px  #555454,    13px -0.4px 2px #000000,
+15px -0.4px 3px  #555454,     15px -0.45px 2px #000000,
+17px -0.45px 3px #555454,     17px -0.5px 2px #000000,
+19px -0.5px 3px #555454,      19px -0.55px 2px #000000,
+20px -0.55px 3px #555454,     20px -0.6px 2px #000000,
+21px -0.6px 3px #555454,      21px -0.7px 2px #000000,
+22px -0.7px 3px #555454,      22px -0.8px 2px #000000,
+23px -0.8px 3px #555454,      23px -0.9px 2px #000000,
+23px -0.9px 3px #555454,      24px -1px 2px #000000,
+
+/* Shadow */
+16px 1px  10px 10px rgba(0, 0, 0, 0.25),
+15px 3px  10px 10px rgba(0, 0, 0, 0.25),
+13px 5px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+
+.grid-item47:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+  3px -0.1px 3px  #555454,      3px -0.2px 2px  #000000,
+  5px -0.2px 3px  #555454,      5px -0.3px 2px  #000000,
+  7px -0.3px 3px  #555454,      7px -0.5px 2px #000000,
+  9px -0.4px 3px  #555454,      9px -0.7px 2px #000000,
+  11px -0.5px 3px  #555454,     11px -0.9px 2px #000000,
+  13px -0.6px 3px  #555454,     13px -1px 2px #000000,
+  15px -0.7px 3px  #555454,     15px -1.2px 2px #000000,
+  17px -0.8px 3px  #555454,     17px -1.25px 2px #000000,
+  19px -0.9px 3px  #555454,     19px -1.5px 2px #000000,
+
+  /* Shadow */
+  16px 1px  10px 10px rgba(0, 0, 0, 0.25),
+  15px 3px  10px 10px rgba(0, 0, 0, 0.25),
+  13px 5px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item58:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+  3px -0.2px 3px  #555454,      3px -0.2px 2px  #000000,
+  5px -0.4px 3px  #555454,      5px -0.3px 2px  #000000,
+  7px -0.6px 3px  #555454,      7px -0.5px 2px #000000,
+  9px -0.8px 3px  #555454,      9px -0.7px 2px #000000,
+  11px -1px 3px  #555454,       11px -0.9px 2px #000000,
+  13px -1.2px 3px  #555454,     13px -1px 2px #000000,
+  15px -1.4px 3px  #555454,     15px -1.2px 2px #000000,
+  17px -1.6px 3px  #555454,     17px -1.25px 2px #000000,
+  19px -1.8px 3px  #555454,     19px -1.5px 2px #000000,
+
+  /* Shadow */
+  16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px -10px  10px 10px rgba(0, 0, 0, 0.25),
+  13px -14px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item57:hover {
+box-shadow:
+
+/* Sides */
+1px 0px 3px   #555454,        1px -0.1px 3px  #000000,
+3px -0.1px 3px  #555454,      3px -0.2px 3px  #000000,
+5px -0.2px 3px  #555454,      5px -0.3px 3px  #000000,
+7px -0.3px 3px  #555454,      7px -0.5px 3px #000000,
+9px -0.5px 3px  #555454,      9px -0.7px 3px #000000,
+11px -0.7px 3px  #555454,     11px -0.9px 3px #000000,
+13px -0.9px 3px  #555454,     13px -1.1px 3px #000000,
+15px -1.1px 3px  #555454,     15px -1.2px 3px #000000,
+17px -1.2px 3px  #555454,     17px -1.3px 3px #000000,
+19px -1.3px 3px  #555454,     19px -1.4px 3px #000000,
+20px -1.4px 3px #555454,      20px -1.3px 3px #000000,
+21px -1.5px 3px #555454,      21px -1.35px 3px #000000,
+22px -1.6px 3px #555454,      22px -1.4px 3px #000000,
+23px -1.7px 3px #555454,      23px -1.45px 3px #000000,
+23px -1.8px 3px #555454,      24px -1.5px 3px #000000,
+
+/* Shadow */
+16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+15px -10px  10px 10px rgba(0, 0, 0, 0.25),
+13px -14px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item69:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+  3px -0.6px 3px  #555454,      3px -0.6px 2px  #000000,
+  5px -1.2px 3px  #555454,      5px -1.8px 2px  #000000,
+  7px -1.8px 3px  #555454,      7px -2.4px 2px #000000,
+  9px -2.4px 3px  #555454,      9px -3px 2px #000000,
+  11px -3px 3px  #555454,       11px -3.6px 2px #000000,
+  13px -3.6px 3px  #555454,     13px -4.2px 2px #000000,
+  15px -4.2px 3px  #555454,     15px -4.5px 2px #000000,
+  17px -4.6px 3px  #555454,     17px -4.8px 2px #000000,
+  19px -4.9px 3px  #555454,     19px -5px 2px #000000,
+
+  /* Shadow */
+  16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px -14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px -19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item68:hover {
+box-shadow:
+
+/* Sides */
+1px 0px 3px   #555454,        1px -0.4px 2px  #000000,
+3px -0.4px 3px  #555454,      3px -0.8px 2px  #000000,
+5px -0.8px 3px  #555454,      5px -1.2px 2px  #000000,
+7px -1.2px 3px  #555454,      7px -1.6px 2px #000000,
+9px -1.6px 3px  #555454,      9px -2px 2px #000000,
+11px -2px 3px  #555454,       11px -3.1px 2px #000000,
+13px -2.4px 3px  #555454,     13px -3.2px 2px #000000,
+15px -2.8px 3px  #555454,     15px -3.5px 2px #000000,
+17px -3.2px 3px  #555454,     17px -3.8px 2px #000000,
+19px -3.6px 3px  #555454,     19px -4px 2px #000000,
+20px -4px 3px #555454,        20px -4.3px 3px #000000,
+21px -4.2px 3px #555454,      21px -4.35px 3px #000000,
+22px -4.4px 3px #555454,      22px -4.4px 3px #000000,
+23px -4.8px 3px #555454,      23px -4.45px 3px #000000,
+23px -5px 3px #555454,        24px -4.9px 3px #000000,
+
+/* Shadow */
+16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+15px -14px  10px 10px rgba(0, 0, 0, 0.25),
+13px -19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item81:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+  3px -0.1px 3px  #555454,      3px -0.5px 2px  #000000,
+  5px -0.5px 3px  #555454,      5px -1.5px 2px  #000000,
+  7px -1.5px 3px  #555454,      7px -2.5px 2px #000000,
+  9px -2.5px 3px  #555454,      9px -3.5px 2px #000000,
+  11px -3.5px 3px  #555454,     11px -4.2px 2px #000000,
+  13px -4.2px 3px  #555454,     13px -5px 2px #000000,
+  15px -5px 3px  #555454,       15px -6px 2px #000000,
+  17px -6px 3px  #555454,       17px -7px 2px #000000,
+  19px -7px 3px  #555454,       19px -7.7px 2px #000000,
+
+  /* Shadow */
+  16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px -14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px -19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item80:hover {
+box-shadow:
+
+/* Sides */
+1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+3px -0.5px 3px  #555454,      3px -0.5px 2px  #000000,
+5px -1px 3px  #555454,        5px -1.5px 2px  #000000,
+7px -1.5px 3px  #555454,      7px -2px 2px #000000,
+9px -2px 3px  #555454,        9px -2.5px 2px #000000,
+11px -2.5px 3px  #555454,     11px -3px 2px #000000,
+13px -3px 3px  #555454,       13px -3.5px 2px #000000,
+15px -3.5px 3px  #555454,     15px -4px 2px #000000,
+17px -4px 3px  #555454,       17px -4.5px 2px #000000,
+19px -4.5px 3px  #555454,     19px -5px 2px #000000,
+20px -5px 3px #555454,        20px -5.5px 3px #000000,
+21px -5.5px 3px #555454,      21px -6px 3px #000000,
+22px -6px 3px #555454,        22px -6.4px 3px #000000,
+23px -6.4px 3px #555454,      23px -7px 3px #000000,
+23px -7px 3px #555454,        24px -7.7px 3px #000000,
+
+/* Shadow */
+16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+15px -14px  10px 10px rgba(0, 0, 0, 0.25),
+13px -19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
+
+.grid-item81:hover {
+  box-shadow:
+
+  /* Sides */
+  1px 0px 3px   #555454,        1px -0.1px 2px  #000000,
+  3px -0.1px 3px  #555454,      3px -0.5px 2px  #000000,
+  5px -0.5px 3px  #555454,      5px -1.5px 2px  #000000,
+  7px -1.5px 3px  #555454,      7px -2.5px 2px #000000,
+  9px -2.5px 3px  #555454,      9px -3.5px 2px #000000,
+  11px -3.5px 3px  #555454,     11px -4.2px 2px #000000,
+  13px -4.2px 3px  #555454,     13px -5px 2px #000000,
+  15px -5px 3px  #555454,       15px -6px 2px #000000,
+  17px -6px 3px  #555454,       17px -7px 2px #000000,
+  19px -7px 3px  #555454,       19px -7.7px 2px #000000,
+
+  /* Shadow */
+  16px -5px  10px 10px rgba(0, 0, 0, 0.25),
+  15px -14px  10px 10px rgba(0, 0, 0, 0.25),
+  13px -19px  10px 12px rgba(0, 0, 0, 0.24);
+
+}
