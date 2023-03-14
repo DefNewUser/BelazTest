@@ -126,3 +126,12 @@ margin-bottom: 20px;
 main p {
 margin-bottom: 20px;
 }
+
+
+.sidebar img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
