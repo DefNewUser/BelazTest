@@ -135,3 +135,7 @@ margin-bottom: 20px;
     height: auto;
     margin-bottom: 20px;
   }
+
+  .sidebar li {
+    margin-bottom: 0px;
+  }
