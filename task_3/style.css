@@ -139,3 +139,33 @@ margin-bottom: 20px;
   .sidebar li {
     margin-bottom: -10px;
   }
+
+  nav .sidebar li {
+    position: relative;
+  }
+  
+  nav .sidebar li:hover::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #007bff;
+    z-index: 1;
+  }
+  
+  nav .sidebar li:hover::before {
+    content: attr(data-title);
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+  }
