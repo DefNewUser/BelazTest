@@ -70,7 +70,7 @@ header .signin a:hover {
 
 
 nav {
-	background-color: #ccc;
+	background-color: #cccccc;
 	height: 100vh;
 	width: 40px;
 	float: left;
@@ -101,16 +101,29 @@ nav ul li a span {
 display: none;
 }
 
+nav ul li a span {
+  display: none;
+  pointer-events: none;
+}
+
 nav ul li a:hover span {
-display: block;
-position: absolute;
-top: 50%;
-left: 100%;
-transform: translate(10px, -50%);
-background-color: #fff;
-padding: 5px 10px;
-border-radius: 5px;
-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(10px, -50%);
+  background-color: #054b97;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  clip-path: polygon(15% 10%, 100% 0, 100% 100%, 15% 90%, 0% 50%);
+  pointer-events: auto;
+}
+
+
+nav ul li a span:focus {
+	color: red;
 }
 
 main {
@@ -142,30 +155,4 @@ margin-bottom: 20px;
 
   nav .sidebar li {
     position: relative;
-  }
-  
-  nav .sidebar li:hover::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    margin-top: -10px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #007bff;
-    z-index: 1;
-  }
-  
-  nav .sidebar li:hover::before {
-    content: attr(data-title);
-    position: absolute;
-    top: 50%;
-    right: 110%;
-    transform: translateY(-50%);
-    background-color: #007bff;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    white-space: nowrap;
-    z-index: 1;
   }
