@@ -101,9 +101,8 @@ nav ul li a span {
 display: none;
 }
 
-nav ul li a span {
-  display: none;
-  pointer-events: none;
+nav ul li a span:hover {
+  background-color: rgb(188, 182, 182);
 }
 
 nav ul li a:hover span {
@@ -118,9 +117,7 @@ nav ul li a:hover span {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
   clip-path: polygon(15% 10%, 100% 0, 100% 100%, 15% 90%, 0% 50%);
-  pointer-events: auto;
 }
-
 
 nav ul li a span:focus {
 	color: red;
@@ -140,17 +137,20 @@ main p {
 margin-bottom: 20px;
 }
 
-
 .sidebar img {
     display: block;
-    width: 100%;
+    width: 110%;
     max-width: 200px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
   }
 
   .sidebar li {
     margin-bottom: -10px;
+  }
+
+  .sidebar li:hover {
+    background-color: #e2e0e0;
   }
 
   nav .sidebar li {
