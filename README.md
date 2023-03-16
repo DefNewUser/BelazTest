@@ -14,17 +14,23 @@ Create a web page with multiple grid elements arranged in a table consisting of 
 - The grid elements should be able to transform using CSS animations.
 - The grid elements should display their side faces using shadows.
 
-## Task 2:
+## Task 2: Creating a Registration Form
 
-### Description
+Create a registration form based on the provided employer's video template. The form should have various types of fields, a pop-up calendar, a button, tooltips, and other features as shown in the video. Ensure that the form is an exact replica of the template provided.
 
-### Requirements
+### Requirements: 
+- Use HTML and CSS to create the registration form.
+- The form should have various types of fields, such as text, email, dropdown menus, etc.
+- The form should have a pop-up calendar.
+- The form should have a submit button.
+- The form should have tooltips to provide additional information.
+- The form should be responsive and mobile-friendly.
 
 ## Task 3: Creating a One-Page Website
 
 Create a one-page website using HTML and CSS. The website should have a header with a logo and two text labels at opposite poles of the header. On the vertical panel, there should be four labels with tooltips. When the user clicks on a label, the corresponding information should appear on the screen.
 
-### Description
+### Requirements
 - Make it exactly as in the video provided by the employer
 - Use HTML and CSS to create the website.
 - The website should have a header with a logo and two text labels at opposite - poles of the header.
