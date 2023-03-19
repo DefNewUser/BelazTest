@@ -131,10 +131,15 @@ main h2 {
 font-size: 36px;
 font-weight: bold;
 margin-bottom: 20px;
+width: 90%;
+margin: 0 auto;
 }
 
 main p {
 margin-bottom: 20px;
+width: 88%;
+margin: 0 auto;
+padding: 10px;
 }
 
 .sidebar img {
@@ -157,12 +162,12 @@ margin-bottom: 20px;
     position: relative;
   }
 
-
   
-.tab {
+  
+/* .tab {
   display: none;
 }
 
 .tab.active {
   display: block;
-}
+} */
