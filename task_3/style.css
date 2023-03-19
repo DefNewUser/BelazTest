@@ -156,3 +156,13 @@ margin-bottom: 20px;
   nav .sidebar li {
     position: relative;
   }
+
+
+  
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
