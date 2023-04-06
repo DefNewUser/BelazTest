@@ -24,7 +24,7 @@ nav {
 }
 
 nav li {
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 nav a {
@@ -104,14 +104,35 @@ nav li:nth-child(2) .subnav li:nth-child(5) a:hover + .subnav2 {
 }
 
 table {
-    width: 100%;
+    width: 88%;
     border-collapse: collapse;
     margin-top: 50px;
+    margin-left: 90px;
+}
+
+.table-heder {
+    text-align: center;
 }
 
 th, td {
     border: 1px solid black;
     padding: 10px;
-    text-align: center;
 }
 
+
+thead {
+    background-color: rgb(127, 122, 122);
+}
+
+.row2, .row4 {
+    background-color: rgb(216, 216, 216);
+}
+
+.result {
+    text-align: right;
+    font-weight: bold
+}
+
+.result_left {
+    font-weight: bold;
+}
