@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 35px;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 0px;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+.subnav {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.subnav li {
+    margin: 5px 0;
+}
+
+.subnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.subnav a:hover {
+    background-color: gray;
+}
+
+nav li:nth-child(2):hover .subnav {
+    display: block;
+}
+
+.subnav2 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: none;
+    z-index: 2;
+    left: 100%;
+    top: 0;
+}
+
+.subnav2 li {
+    margin: 5px 0;
+}
+
+.subnav2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.subnav2 a:hover {
+    background-color: gray;
+}
+
+nav li:nth-child(2) .subnav li:nth-child(5) a:hover + .subnav2 {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
