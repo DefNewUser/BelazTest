@@ -26,10 +26,10 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 21px 60px;
+    padding: 22px 60px;
     transition: background-color 0.3s ease;
     flex-grow: 1;
 }
@@ -40,8 +40,15 @@ nav a:hover {
 
 }
 
-.subnav {
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
     position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
     background-color: black;
     color: white;
     padding: 10px;
@@ -49,12 +56,16 @@ nav a:hover {
     z-index: 1;
 }
 
-.subnav li {
-    margin: 21px 0px;
-    position: relative;
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
-.subnav a {
+.dropdown-menu li {
+    margin: 5px 0px;
+
+}
+
+.dropdown-menu a {
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -63,15 +74,15 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
-.subnav a:hover {
+.dropdown-menu a:hover {
     background-color: gray;
 }
 
-nav li:nth-child(2):hover .subnav {
+nav li:nth-child(2):hover .dropdown-menu {
     display: block;
 }
 
-.subnav2 {
+.dropdown-menu-2 {
     position: absolute;
     background-color: black;
     color: white;
@@ -82,11 +93,11 @@ nav li:nth-child(2):hover .subnav {
     top: 0;
 }
 
-.subnav2 li {
+.dropdown-menu-2 li {
     margin: 5px 0;
 }
 
-.subnav2 a {
+.dropdown-menu-2 a {
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -95,11 +106,11 @@ nav li:nth-child(2):hover .subnav {
     transition: background-color 0.3s ease;
 }
 
-.subnav2 a:hover {
+.dropdown-menu-2 a:hover {
     background-color: gray;
 }
 
-nav li:nth-child(2) .subnav li:nth-child(5) a:hover + .subnav2 {
+nav li:nth-child(2) .dropdown-menu li:nth-child(5) a:hover + .dropdown-menu-2 {
     display: block;
 }
 
