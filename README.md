@@ -6,7 +6,9 @@ Welcome! This repository contains tasks that need to be completed as part of the
 
 Create a web page with multiple grid elements arranged in a table consisting of rows and columns. Each grid element should be a rectangle of a specific size filled with a random color. The grid elements should be able to transform using CSS animations and display their side faces using shadows.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=i8gs5dZZKG4" frameborder="0" allowfullscreen></iframe>
+https://github.com/DefNewUser/BelazTest/assets/77128020/574df16f-b7b0-40c2-b41d-b4e129536654
+
+
 
 ### Requirements
 
